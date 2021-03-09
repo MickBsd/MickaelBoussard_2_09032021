@@ -56,10 +56,10 @@ li {
   height: 10rem;
 }
 
-.logo img {
+/* .logo img {
     width: 10rem;
     height: 5rem;
-}
+} */
 
 .nav-bar {
     display: flex;

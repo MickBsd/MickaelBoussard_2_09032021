@@ -159,22 +159,19 @@ li {
     padding: 1.5rem;
 }
 
-.search-button a {
+.search-button p {
     color: white;
     font-weight: bold;
     font-size: 1.6rem;
 }
 
 .search-button:hover {
+    cursor: pointer;
     opacity: 0.8;
-    background-color: var(--grey-color);
-    border: 0.2rem solid var(--blue-color);
-    -webkit-transition: all 1s ease; /* Safari et Chrome */
-    -moz-transition: all 1s ease; /* Firefox */
-    transition: all 1s ease;
+    background-color: var(--grey-color); 
 }
 
-.search-button:hover a {
+.search-button:hover p {
     color: var(--blue-color);
 }
 

@@ -1,8 +1,9 @@
 /* CSS SUMMARY */
 
 /* 
-GENERIC RULES : line 9 - 33
-HEADER : line 32 - 
+GENERIC RULES : line 10 - 43
+HEADER : line 48 - 98
+SEARCH : line 108 - 
 
 */
 
@@ -24,6 +25,8 @@ body {
   --blue-light-color: #deebff;
   --grey-color: #f2f2f2;
   font-size: 1.6rem;
+  max-width: 1440px;
+  margin: auto;
 }
 
 a {
@@ -36,7 +39,11 @@ ul {
 }
 
 li {
-    paffing: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 0 5rem 0 5rem;
 }
 
 /* HEADER */
@@ -49,9 +56,6 @@ li {
   height: 10rem;
 }
 
-.logo {
-  padding: 2rem;
-}
 
 .nav-bar {
     display: flex;
@@ -63,26 +67,178 @@ li {
 }
 
 .nav-list li a {
-   flex-grow: 1;
    padding: 4rem;
 }
 
+.is-activ {
+    color: var(--blue-color);
+    border-top: solid 0.2rem var(--blue-color);
+ }
+
 .nav-list li a:hover {
     color: var(--blue-color);
-    border-top: solid 0.11rem var(--blue-color);
+    border-top: solid 0.2rem var(--blue-color);
 }
 
 .sign-up {
-  color: var(--blue-color);
-  font-weight: bold;
-  padding: 2rem;
+    color: var(--blue-color);
+    font-weight: bold;
+    padding: 2rem;
+    margin-right: 2rem;
+    -webkit-transition: all 1s ease; /* Safari et Chrome */
+    -moz-transition: all 1s ease; /* Firefox */
+    -ms-transition: all 1s ease; /* Internet Explorer 9 */
+    -o-transition: all 1s ease; /* Opera */
+    transition: all 1s ease;
 }
 
 .sign-up:hover {
-  color: white;
-  background-color: var(--blue-color);
-  font-weight: bold;
-  border-radius: 2rem;
-  cursor: pointer;
-  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    color: white;
+    background-color: var(--blue-color);
+    font-weight: bold;
+    border-radius: 3rem;
+    cursor: pointer;
+    -webkit-transform:scale(1.25); /* Safari et Chrome */
+    -moz-transform:scale(1.25); /* Firefox */
+    -ms-transform:scale(1.25); /* Internet Explorer 9 */
+    -o-transform:scale(1.25); /* Opera */
+    transform:scale(1.25);
 }
+
+/* SEARCH*/ 
+
+#search {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5rem;
+}
+
+.title {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.sub-title {
+    margin-bottom: 2rem;
+}
+
+.search-input {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2rem;
+}
+
+.search-input i {
+    background-color: var(--grey-color);
+    border-radius: 2rem 0 0 2rem;
+    padding: 1.5rem;
+}
+
+.search-input input {
+    border: none;
+    padding: 1.5rem;
+    font-weight: bold;
+    border: 0.2rem solid var(--grey-color);
+    border-right: none;
+}
+
+.search-input input::placeholder {
+    color: black;
+    opacity: 1;
+    font-size: 1.5rem;
+}
+
+.search-input input:focus {
+    outline: none;
+}
+
+.search-button {
+    background-color: var(--blue-color);
+    border: none;
+    border-radius:0 2rem 2rem 0 ;
+    padding: 1.5rem;
+}
+
+.search-button a {
+    color: white;
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+
+.search-button:hover {
+    opacity: 0.8;
+    background-color: var(--grey-color);
+    border: 0.2rem solid var(--blue-color);
+    -webkit-transition: all 1s ease; /* Safari et Chrome */
+    -moz-transition: all 1s ease; /* Firefox */
+    transition: all 1s ease;
+}
+
+.search-button:hover a {
+    color: var(--blue-color);
+}
+
+.search-icon {
+    display: none;
+}
+
+.filters {
+    display: flex;
+    align-items: center;
+    padding: 2rem 2rem 2rem 0;
+}
+
+.filters p {
+    font-weight: bold;
+}
+
+.filters-icon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 0.2rem solid var(--grey-color);
+    border-radius: 3rem;
+    margin: 0 2rem;
+}
+
+.filters-icon:hover {
+    background-color:  var(--blue-light-color);
+    border: 0.2rem solid var(--blue-color);
+    -webkit-transition: all 1s ease; /* Safari et Chrome */
+    -moz-transition: all 1s ease; /* Firefox */
+    transition: all 1s ease;
+}
+
+.filters-icon p:hover {
+    color: var(--blue-color);
+}
+
+.filters-icon i {
+    background-color:  var(--blue-light-color);
+    color: var(--blue-color);
+    border-radius: 3rem;
+    padding: 1.2rem;
+}
+
+.filters-icon p {
+    font-weight: bold;
+    border-radius: 0 3rem 3rem 0;
+    padding: 1rem;
+}
+
+.infos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.infos i {
+    color: var(--blue-color);
+    border: 0.1rem solid var(--grey-color);
+    border-radius: 50%;
+    margin-right: 2rem;
+    padding: 1rem;
+    
+}
+
+

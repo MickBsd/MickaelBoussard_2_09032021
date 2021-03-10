@@ -24,6 +24,7 @@ body {
   --blue-color: #0065fc;
   --blue-light-color: #deebff;
   --grey-color: #f2f2f2;
+  --grey-second-color: #d9d9d9;
   font-size: 1.6rem;
   max-width: 1440px;
   margin: auto;
@@ -196,7 +197,7 @@ li {
     display: flex;
     flex-direction: row;
     align-items: center;
-    border: 0.2rem solid var(--grey-color);
+    border: 0.2rem solid var(--grey-second-color);
     border-radius: 3rem;
     margin: 0 2rem;
 }

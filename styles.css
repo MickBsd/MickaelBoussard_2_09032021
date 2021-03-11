@@ -295,18 +295,17 @@ li {
   margin-bottom: 1rem;
 }
 
-
 .hosting-card-text {
   height: 40%;
 }
 
-.hosting-card h3, p {
-    margin-bottom: 1rem;
+.hosting-card p {
+  margin: 1rem 0 1rem 0;
 }
 
 .hosting-card-icon {
-    display: flex;
-    color: var(--blue-color);
+  display: flex;
+  color: var(--blue-color);
 }
 
 .icon-card {

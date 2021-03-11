@@ -268,11 +268,15 @@ li {
   padding: 3rem;
 }
 
+.hosting-container h2 {
+  margin-bottom: 2rem;
+}
+
 .hosting-choice {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-bottom: 2rem;
+  margin-bottom: 5rem;
 }
 
 .hosting-card {
@@ -283,9 +287,18 @@ li {
   border-radius: 2rem;
   box-shadow: 0px 0px 7px 1px #d2d2d2;
   padding: 0.5rem;
-  margin-top: 2rem;
+  /* margin-top: 2rem; */
+  margin-bottom: 2rem;
   width: 30%;
-  overflow: hidden;
+  -webkit-transition: all 1s ease; /* Safari et Chrome */
+  -moz-transition: all 1s ease; /* Firefox */
+  transition: all 1s ease;
+}
+
+.hosting-card:hover {
+  -webkit-transform:scale(1.25); /* Safari et Chrome */
+  -moz-transform:scale(1.25); /* Firefox */
+  transform:scale(1.05);
 }
 
 .hosting-card img {
@@ -353,6 +366,15 @@ li {
   height: 15rem;
   padding: 0.2rem;
   margin-bottom: 2rem;
+  -webkit-transition: all 1s ease; /* Safari et Chrome */
+  -moz-transition: all 1s ease; /* Firefox */
+  transition: all 1s ease;
+}
+
+.most-popular-card:hover {
+  -webkit-transform:scale(1.25); /* Safari et Chrome */
+  -moz-transform:scale(1.25); /* Firefox */
+  transform:scale(1.05);
 }
 
 .most-popular-card img {

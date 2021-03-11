@@ -290,7 +290,7 @@ li {
 
 .hosting-card img {
   border-radius: 1.5rem 1.5rem 0 0;
-  height: 15rem;
+  height: 10rem;
   object-fit: cover;
   margin-bottom: 1rem;
 }
@@ -308,9 +308,13 @@ li {
   color: var(--blue-color);
 }
 
+
 .icon-card {
   display: flex;
   color: var(--blue-color);
+}
+.icon-card-empty {
+  color: var(--grey-second-color);
 }
 
 .more-hosting-link {

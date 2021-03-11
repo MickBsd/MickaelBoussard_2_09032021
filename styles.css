@@ -32,7 +32,7 @@ body {
   --grey-color: #f2f2f2;
   --grey-second-color: #d9d9d9;
   font-size: 1.6rem;
-  max-width: 1440px;
+  /* max-width: 1440px; */
   margin: auto;
 }
 

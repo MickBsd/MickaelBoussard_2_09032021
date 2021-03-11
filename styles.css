@@ -2,14 +2,14 @@
 
 *** CSS SUMMARY *** 
 
-GENERIC RULES : line 10 - 43
-HEADER : line 48 - 98
-SEARCH : line 108 - 243
-FILTERS : line 
-HOSTING : line 
-MOST POPULAR : line
-ACTIVITIES : line
-FOOTER : line 
+GEN. RULES :   line 10 - 57
+HEADER :       line 59 - 116
+SEARCH :       line 120 - 193
+FILTERS :      line 195 - 253
+HOSTING :      line 257 - 339
+MOST POPULAR : line 341 - 399
+ACTIVITIES :   line 403  487
+FOOTER :       line 491 - 508
 
 */
 
@@ -32,7 +32,6 @@ body {
   --grey-color: #f2f2f2;
   --grey-second-color: #d9d9d9;
   font-size: 1.6rem;
-  max-width: 1440px;
   margin: auto;
 }
 
@@ -47,6 +46,10 @@ ul {
 
 li {
   padding: 0;
+}
+
+h3 {
+  font-size: 1.5rem;
 }
 
 .container {
@@ -255,6 +258,7 @@ li {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin-bottom: 5rem;
 }
 
 .hosting-container {
@@ -268,11 +272,15 @@ li {
   padding: 3rem;
 }
 
+.hosting-container h2 {
+  margin-bottom: 2rem;
+}
+
 .hosting-choice {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-bottom: 2rem;
+  margin-bottom: 5rem;
 }
 
 .hosting-card {
@@ -283,9 +291,17 @@ li {
   border-radius: 2rem;
   box-shadow: 0px 0px 7px 1px #d2d2d2;
   padding: 0.5rem;
-  margin-top: 2rem;
+  margin-bottom: 2rem;
   width: 30%;
-  overflow: hidden;
+  -webkit-transition: all 1s ease; /* Safari et Chrome */
+  -moz-transition: all 1s ease; /* Firefox */
+  transition: all 1s ease;
+}
+
+.hosting-card:hover {
+  -webkit-transform: scale(1.25); /* Safari et Chrome */
+  -moz-transform: scale(1.25); /* Firefox */
+  transform: scale(1.05);
 }
 
 .hosting-card img {
@@ -307,7 +323,6 @@ li {
   display: flex;
   color: var(--blue-color);
 }
-
 
 .icon-card {
   display: flex;
@@ -353,16 +368,27 @@ li {
   height: 15rem;
   padding: 0.2rem;
   margin-bottom: 2rem;
+  -webkit-transition: all 1s ease; /* Safari et Chrome */
+  -moz-transition: all 1s ease; /* Firefox */
+  transition: all 1s ease;
+}
+
+.most-popular-card:hover {
+  -webkit-transform: scale(1.25); /* Safari et Chrome */
+  -moz-transform: scale(1.25); /* Firefox */
+  transform: scale(1.05);
 }
 
 .most-popular-card img {
   border-radius: 1rem 0 0 1rem;
   width: 40%;
-  min-height: 100%;
   object-fit: cover;
 }
 
 .most-popular-card-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   width: 60%;
   margin-left: 1rem;
 }
@@ -373,17 +399,103 @@ li {
 
 /* ACTIVITIES */
 
+#activities {
+  margin-bottom: 5rem;
+}
+
+#activities h2 {
+  margin-bottom: 2rem;
+}
+#activities h3 {
+  padding: 1.5rem;
+}
+
+.activities-choice {
+  display: flex;
+}
+
+.activities-single {
+  width: 25%;
+  padding-top:  2rem ;
+  padding-bottom: 2rem;
+}
+
+.activities-single-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 44rem;
+  box-shadow: 0px 0px 7px 1px #d2d2d2;
+  border-radius: 2rem;
+  -webkit-transition: all 1s ease; /* Safari et Chrome */
+  -moz-transition: all 1s ease; /* Firefox */
+  transition: all 1s ease;
+}
+
+.activities-single-card:hover {
+  -webkit-transform: scale(1.25); /* Safari et Chrome */
+  -moz-transform: scale(1.25); /* Firefox */
+  transform: scale(1.05);
+}
+
+.activities-single-card img {
+  height: 100%;
+  object-fit: cover;
+  border-radius: 2rem 2rem 0 0;
+}
+
+.activities-double {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 25%;
+  padding: 2rem;
+}
+
+.activities-double2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 25%;
+  padding: 2rem;
+  padding-right: 0;
+}
+
+.activities-double-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 21rem;
+  box-shadow: 0px 0px 7px 1px #d2d2d2;
+  border-radius: 2rem;
+  -webkit-transition: all 1s ease; /* Safari et Chrome */
+  -moz-transition: all 1s ease; /* Firefox */
+  transition: all 1s ease;
+}
+
+.activities-double-card img {
+  height: 100%;
+  object-fit: cover;
+  border-radius: 2rem 2rem 0 0;
+}
+
+.activities-double-card:hover {
+  -webkit-transform: scale(1.25); /* Safari et Chrome */
+  -moz-transform: scale(1.25); /* Firefox */
+  transform: scale(1.05);
+}
+
 /* FOOTER */
 
 #footer {
   background-color: var(--grey-color);
   display: flex;
+  justify-content: center;
   padding: 3rem;
 }
 
 .list-bloc {
   width: 30%;
-  margin-left: 2rem;
 }
 
 .list-title {

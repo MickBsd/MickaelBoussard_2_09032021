@@ -1,0 +1,168 @@
+.container {
+    margin: 0;
+}
+
+#header  {
+    display: grid;
+    display: none;
+}
+
+.logo {
+    display: flex;
+    justify-content: start;
+}
+
+.logo img {
+    width: 2rem;
+}
+
+.sign-up {
+    transition: none;
+}
+
+.nav-bar {
+
+}
+
+.is-activ {
+    border-top: none;
+    border-bottom: solid 0.3rem var(--blue-color);
+
+}
+
+/* SEARCH */ 
+
+#search {
+    width: 100%;
+    margin-bottom: 0;
+}
+
+.search-input {
+
+}
+
+
+.filters {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 0;
+}
+
+.filters-title {
+    margin-bottom: 1.5rem;
+    margin-left: 2rem;
+}
+
+.filters-icon {
+margin-bottom: 1.5rem;
+padding-left: 0;
+}
+
+.infos {
+    width: 100%;
+    padding: 2rem;
+}
+
+/* HOSTING */
+
+#hosting {
+    display: flex;
+    flex-direction: column-reverse;
+margin-bottom: 0
+;}
+
+.hosting-container {
+    background-color: white;
+    width: 100%;
+    padding: 2rem;
+}
+
+.hosting-choice {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+}
+
+.hosting-card {
+    width: 100%;
+}
+
+
+
+
+.most-popular{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: white;
+    padding: 2rem;
+}
+
+.most-popular-card {
+    box-shadow: 0px 0px 7px 1px #d2d2d2;
+    border: none;
+    padding: 0.5rem;
+}
+
+/* ACTIVITIES */ 
+
+#activities {
+    padding: 2rem;
+    margin-bottom: 0;
+}
+
+.activities-choice {
+    display: block;
+}
+
+.activities-single {
+    width: 100%;
+}
+
+.activities-single-card {
+    width: auto;
+    height: 21rem;
+}
+
+.activities-double {
+    padding: 0;
+    width: 100%;
+}
+
+.activities-double2 {
+    padding: 0;
+    width: 100%;
+}
+
+.activities-double-card {
+    width: auto; 
+    margin-bottom: 2rem;
+
+}
+
+.activities-single-card:hover  {
+    -webkit-transform: none; /* Safari et Chrome */
+    -moz-transform: none; /* Firefox */
+    transform: none;
+}
+
+.activities-double-card:hover{
+    -webkit-transform: none; /* Safari et Chrome */
+    -moz-transform: none; /* Firefox */
+    transform: none;
+}
+
+/* FOOTER */
+
+#footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.list-bloc {
+    width: 100%;
+    margin-bottom: 2rem;
+}

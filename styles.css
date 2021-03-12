@@ -2,14 +2,14 @@
 
 *** CSS SUMMARY *** 
 
-GEN. RULES :   line 10 - 57
-HEADER :       line 59 - 116
-SEARCH :       line 120 - 193
-FILTERS :      line 195 - 253
-HOSTING :      line 257 - 339
-MOST POPULAR : line 341 - 399
-ACTIVITIES :   line 403  487
-FOOTER :       line 491 - 508
+GEN. RULES :   line 18 - 57
+HEADER :       line 61 - 120
+SEARCH :       line 124 - 200
+FILTERS :      line 204 - 260
+HOSTING :      line 264 - 345
+MOST POPULAR : line 347 - 405
+ACTIVITIES :   line 409  493
+FOOTER :       line 497 - 514
 
 */
 
@@ -446,7 +446,7 @@ h3 {
 }
 
 .activities-single-card img {
-  height: 100%;
+  height: 40rem;
   object-fit: cover;
   border-radius: 2rem 2rem 0 0;
 }
@@ -481,7 +481,7 @@ h3 {
 }
 
 .activities-double-card img {
-  height: 100%;
+  height: 17rem;
   object-fit: cover;
   border-radius: 2rem 2rem 0 0;
 }

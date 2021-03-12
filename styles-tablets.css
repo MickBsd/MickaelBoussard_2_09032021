@@ -1,3 +1,18 @@
+/* 
+
+*** CSS SUMMARY *** 
+
+GEN. RULES :   line 16 - 18
+HEADER :       line 22 - 24
+SEARCH :       line 28 - 46
+FILTERS :      line 50 - 70
+HOSTING :      line 74 - 95
+MOST POPULAR : line 97 - 109
+ACTIVITIES :   line 113 - 161
+FOOTER :       line 165 - 158
+
+*/
+
 .container {
     margin: 0;
   }
@@ -30,6 +45,8 @@
     width: 50%;
   }  
   
+  /* FILTERS */
+
   .filters {
     display: flex;
   flex-direction: column;
@@ -109,6 +126,10 @@
   .activities-single-card {
     width: auto;
     height: 21rem;
+  }
+
+  .activities-single-card img {
+    height: 17rem;
   }
   
   .activities-double {

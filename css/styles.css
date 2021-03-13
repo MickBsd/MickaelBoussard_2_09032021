@@ -53,7 +53,7 @@ h3 {
 }
 
 .container {
-  margin: 0 5rem 0 5rem;
+  margin: 0rem 5rem 0 5rem;
 }
 
 /* HEADER */
@@ -86,7 +86,6 @@ h3 {
 
 .is-activ {
   color: var(--blue-color);
-  /* border-top: solid 0.2rem var(--blue-color); */
 }
 
 .is-activ a {
@@ -291,7 +290,7 @@ h3 {
 .hosting-choice {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   margin-bottom: 5rem;
 }
 
@@ -303,7 +302,7 @@ h3 {
   border-radius: 2rem;
   box-shadow: 0px 0px 7px 1px #d2d2d2;
   padding: 0.5rem;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
   width: 30%;
   -webkit-transition: all 1s ease; /* Safari et Chrome */
   -moz-transition: all 1s ease; /* Firefox */
@@ -379,7 +378,7 @@ h3 {
   width: 100%;
   height: 15rem;
   padding: 0.2rem;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
   -webkit-transition: all 1s ease; /* Safari et Chrome */
   -moz-transition: all 1s ease; /* Firefox */
   transition: all 1s ease;
@@ -428,8 +427,8 @@ h3 {
 
 .activities-single {
   width: 25%;
-  padding-top:  2rem ;
-  padding-bottom: 2rem;
+  padding-top:  3rem ;
+  padding-bottom: 3rem;
 }
 
 .activities-single-card {
@@ -461,7 +460,7 @@ h3 {
   flex-direction: column;
   justify-content: space-between;
   width: 25%;
-  padding: 2rem;
+  padding: 3rem;
 }
 
 .activities-double2 {
@@ -469,7 +468,7 @@ h3 {
   flex-direction: column;
   justify-content: space-between;
   width: 25%;
-  padding: 2rem;
+  padding: 3rem;
   padding-right: 0;
 }
 

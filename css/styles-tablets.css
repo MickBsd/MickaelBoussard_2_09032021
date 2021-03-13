@@ -3,13 +3,13 @@
 *** CSS SUMMARY *** 
 
 GEN. RULES :   line 16 - 18
-HEADER :       line 22 - 24
-SEARCH :       line 28 - 50
-FILTERS :      line 54 - 70
-HOSTING :      line 74 - 95
-MOST POPULAR : line 101 - 113
-ACTIVITIES :   line 117 - 165
-FOOTER :       line 169 - 172
+HEADER :       line 22 - 35
+SEARCH :       line 39 - 57
+FILTERS :      line 61 - 80
+HOSTING :      line 84 - 106
+MOST POPULAR : line 108 - 123
+ACTIVITIES :   line 127 - 163
+FOOTER :       line 167 - 170
 
 */
 
@@ -21,6 +21,17 @@ FOOTER :       line 169 - 172
   
 .logo {
     padding: 2rem;
+}
+
+.sign-up-desktop {
+  transition: none;
+}
+
+.sign-up-desktop:hover {
+  color: var(--blue-color);
+  background-color: white;
+  border-radius: 0;
+  transform: none;
 }
 
 /* SEARCH */

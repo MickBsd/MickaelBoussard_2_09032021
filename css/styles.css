@@ -2,14 +2,14 @@
 
 *** CSS SUMMARY *** 
 
-GEN. RULES :   line 18 - 57
-HEADER :       line 61 - 125
-SEARCH :       line 129 - 205
-FILTERS :      line 209 - 265
-HOSTING :      line 269 - 345
-MOST POPULAR : line 347 - 410
-ACTIVITIES :   line 414 - 493
-FOOTER :       line 502 - 519
+GEN. RULES :   line 18 - 58
+HEADER :       line 62 - 121
+SEARCH :       line 125 - 198
+FILTERS :      line 202 - 256
+HOSTING :      line 260 - 337
+MOST POPULAR : line 339 - 393
+ACTIVITIES :   line 397 - 473
+FOOTER :       line 477 - 494
 
 */
 
@@ -54,6 +54,7 @@ h3 {
 .container {
   max-width: 1440px;
   margin: auto; 
+  padding: 0 3rem;
 }
 
 /* HEADER */
@@ -267,10 +268,10 @@ h3 {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 100%;
+  width: 70%;
+  margin-right: 4rem;
   background-color: var(--grey-color);
   border-radius: 2rem;
-  margin-right: 4rem;
   padding: 3rem;
 }
 
@@ -346,7 +347,7 @@ h3 {
 
 .most-popular-header {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   margin-bottom: 2.7rem;
 }

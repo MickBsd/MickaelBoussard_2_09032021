@@ -32,7 +32,6 @@ body {
   --grey-color: #f2f2f2;
   --grey-second-color: #d9d9d9;
   font-size: 1.6rem;
-  margin: auto;
 }
 
 a {
@@ -53,7 +52,8 @@ h3 {
 }
 
 .container {
-  margin: 0rem 5rem 0 5rem;
+  max-width: 1440px;
+  margin: auto; 
 }
 
 /* HEADER */
@@ -103,8 +103,6 @@ h3 {
   font-weight: bold;
   padding: 2rem;
   margin-right: 2rem;
-  -webkit-transition: all 1s ease; /* Safari et Chrome */
-  -moz-transition: all 1s ease; /* Firefox */
   transition: all 1s ease;
 }
 
@@ -114,8 +112,6 @@ h3 {
   font-weight: bold;
   border-radius: 3rem;
   cursor: pointer;
-  -webkit-transform: scale(1.25); /* Safari et Chrome */
-  -moz-transform: scale(1.25); /* Firefox */
   transform: scale(1.25);
 }
 
@@ -129,7 +125,6 @@ h3 {
   display: flex;
   flex-direction: column;
   margin-bottom: 5rem;
-  width: 100%;
 }
 
 .title {
@@ -188,8 +183,6 @@ h3 {
   cursor: pointer;
   opacity: 0.8;
   background-color: var(--grey-color);
-  -webkit-transition: all 1s ease; /* Safari et Chrome */
-  -moz-transition: all 1s ease; /* Firefox */
   transition: all 1s ease;
 }
 
@@ -227,8 +220,6 @@ h3 {
 .filters-icon:hover {
   background-color: var(--blue-light-color);
   border: 0.2rem solid var(--blue-color);
-  -webkit-transition: all 1s ease; /* Safari et Chrome */
-  -moz-transition: all 1s ease; /* Firefox */
   transition: all 1s ease;
 }
 
@@ -276,7 +267,7 @@ h3 {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 70%;
+  width: 100%;
   background-color: var(--grey-color);
   border-radius: 2rem;
   margin-right: 4rem;
@@ -290,7 +281,7 @@ h3 {
 .hosting-choice {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
   margin-bottom: 5rem;
 }
 
@@ -303,15 +294,11 @@ h3 {
   box-shadow: 0px 0px 7px 1px #d2d2d2;
   padding: 0.5rem;
   margin-bottom: 3rem;
-  width: 30%;
-  -webkit-transition: all 1s ease; /* Safari et Chrome */
-  -moz-transition: all 1s ease; /* Firefox */
+  width: 31%;
   transition: all 1s ease;
 }
 
 .hosting-card:hover {
-  -webkit-transform: scale(1.25); /* Safari et Chrome */
-  -moz-transform: scale(1.25); /* Firefox */
   transform: scale(1.05);
 }
 
@@ -359,9 +346,9 @@ h3 {
 
 .most-popular-header {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  margin-bottom: 2rem;
+  margin-bottom: 2.7rem;
 }
 
 .most-popular-header i {
@@ -379,14 +366,10 @@ h3 {
   height: 15rem;
   padding: 0.2rem;
   margin-bottom: 3rem;
-  -webkit-transition: all 1s ease; /* Safari et Chrome */
-  -moz-transition: all 1s ease; /* Firefox */
   transition: all 1s ease;
 }
 
 .most-popular-card:hover {
-  -webkit-transform: scale(1.25); /* Safari et Chrome */
-  -moz-transform: scale(1.25); /* Firefox */
   transform: scale(1.05);
 }
 
@@ -438,14 +421,10 @@ h3 {
   height: 44rem;
   box-shadow: 0px 0px 7px 1px #d2d2d2;
   border-radius: 2rem;
-  -webkit-transition: all 1s ease; /* Safari et Chrome */
-  -moz-transition: all 1s ease; /* Firefox */
-  transition: all 1s ease;
+   transition: all 1s ease;
 }
 
 .activities-single-card:hover {
-  -webkit-transform: scale(1.25); /* Safari et Chrome */
-  -moz-transform: scale(1.25); /* Firefox */
   transform: scale(1.05);
 }
 
@@ -479,8 +458,6 @@ h3 {
   height: 21rem;
   box-shadow: 0px 0px 7px 1px #d2d2d2;
   border-radius: 2rem;
-  -webkit-transition: all 1s ease; /* Safari et Chrome */
-  -moz-transition: all 1s ease; /* Firefox */
   transition: all 1s ease;
 }
 
@@ -491,8 +468,6 @@ h3 {
 }
 
 .activities-double-card:hover {
-  -webkit-transform: scale(1.25); /* Safari et Chrome */
-  -moz-transform: scale(1.25); /* Firefox */
   transform: scale(1.05);
 }
 

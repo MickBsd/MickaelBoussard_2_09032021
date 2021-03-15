@@ -1,18 +1,3 @@
-/* 
-
-*** CSS SUMMARY *** 
-
-GEN. RULES :   line 16 - 18
-HEADER :       line 22 - 35
-SEARCH :       line 39 - 57
-FILTERS :      line 61 - 80
-HOSTING :      line 84 - 106
-MOST POPULAR : line 108 - 123
-ACTIVITIES :   line 127 - 163
-FOOTER :       line 167 - 170
-
-*/
-
 .container {
     margin: 0;
   }
@@ -28,9 +13,9 @@ FOOTER :       line 167 - 170
 }
 
 .sign-up-desktop:hover {
-  color: var(--blue-color);
   background-color: white;
   border-radius: 0;
+  color: var(--blue-color);
   transform: none;
 }
 

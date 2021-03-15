@@ -1,18 +1,3 @@
-/* 
-
-*** CSS SUMMARY *** 
-
-GEN. RULES :   line 16 - 19
-HEADER :       line 23 - 83
-SEARCH :       line 87 - 116
-FILTERS :      line 120 - 140
-HOSTING :      line 144 - 165
-MOST POPULAR : line 167 - 179
-ACTIVITIES :   line 183 - 231
-FOOTER :       line 235 - 244
-
-*/
-
 .container {
   margin: 0;
   padding: 0;
@@ -219,14 +204,12 @@ FOOTER :       line 235 - 244
 }
 
 .activities-single-card:hover {
-  -webkit-transform: none; /* Safari et Chrome */
-  -moz-transform: none; /* Firefox */
+
   transform: none;
 }
 
 .activities-double-card:hover {
-  -webkit-transform: none; /* Safari et Chrome */
-  -moz-transform: none; /* Firefox */
+
   transform: none;
 }
 

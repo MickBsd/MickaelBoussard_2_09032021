@@ -337,6 +337,10 @@ h3 {
   font-weight: bold;
 }
 
+.more-hosting-link:hover {
+  color: var(--blue-color);
+}
+
 .most-popular {
   display: flex;
   flex-direction: column;

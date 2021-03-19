@@ -69,12 +69,10 @@ h3 {
   padding: 4rem;
 }
 
-.is-activ {
-  color: var(--blue-color);
-}
 
 .is-activ a {
     border-top: solid 0.2rem var(--blue-color);
+    color: var(--blue-color);
 
 }
 
@@ -232,11 +230,16 @@ h3 {
 }
 
 .infos i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1rem;
+  width: 1rem;
   color: var(--blue-color);
   border: 0.1rem solid var(--grey-second-color);
   border-radius: 50%;
   margin-right: 2rem;
-  padding: 1.3rem;
+  padding: 1.5rem;
 }
 
 /* HOSTING */
@@ -246,6 +249,11 @@ h3 {
   flex-direction: row;
   justify-content: space-between;
   margin-bottom: 5rem;
+}
+
+#hosting h3 {
+  font-size: 2rem;
+
 }
 
 .hosting-container {
@@ -381,6 +389,7 @@ h3 {
 
 .most-popular-card-text p {
   height: 50%;
+  margin-top: 0.5rem;
 }
 
 /* ACTIVITIES */
@@ -467,13 +476,19 @@ h3 {
 
 #footer {
   background-color: var(--grey-color);
+  padding: 3rem;
+  
+}
+
+.list-container {
+  max-width: 1440px;
+  margin: auto;
   display: flex;
-  justify-content: center;
   padding: 3rem;
 }
 
 .list-bloc {
-  width: 30%;
+  width: 30%; 
 }
 
 .list-title {

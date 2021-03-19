@@ -251,23 +251,25 @@ h3 {
 .hosting-container {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   width: 70%;
   margin-right: 4rem;
   background-color: var(--grey-color);
   border-radius: 2rem;
   padding: 3rem;
+  padding-bottom: 0;
 }
 
 .hosting-container h2 {
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
 }
 
 .hosting-choice {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-bottom: 5rem;
+  align-content: space-between;
+  /* margin-bottom: 5rem; */
 }
 
 .hosting-card {
@@ -330,6 +332,7 @@ h3 {
   background-color: var(--grey-color);
   border-radius: 2rem;
   padding: 3rem;
+  padding-bottom: 0%;
   width: 30%;
 }
 
@@ -337,7 +340,7 @@ h3 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 2.7rem;
+  margin-bottom: 3rem;
 }
 
 .most-popular-header i {

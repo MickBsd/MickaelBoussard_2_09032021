@@ -74,9 +74,13 @@
   margin-bottom: 0;
 }
 
-.title,
+.title {
+  padding: 2rem ;
+  margin-bottom: 0;
+}
+
 .sub-title {
-  padding: 2rem;
+  padding: 0 2rem;
   margin-bottom: 0;
 }
 
@@ -136,6 +140,7 @@
   background-color: white;
   width: 100%;
   padding: 2rem;
+  margin-bottom: 2rem;
 }
 
 .hosting-choice {
@@ -153,7 +158,7 @@
   display: flex;
   flex-direction: column;
   width: 100%;
-  background-color: white;
+  border-radius: 0;
   padding: 2rem;
 }
 
@@ -163,10 +168,22 @@
   padding: 0.5rem;
 }
 
+.most-popular-card h3 {
+  margin-top: 1rem;
+}
+
+.icon-card {
+  margin-bottom: 1rem;
+}
+
 /* ACTIVITIES */
 
 #activities {
   padding: 2rem;
+  margin-bottom: 0;
+}
+
+#activities h2 {
   margin-bottom: 0;
 }
 
@@ -215,7 +232,8 @@
 
 /* FOOTER */
 
-#footer {
+
+.list-container {
   display: flex;
   flex-direction: column;
   align-items: center;

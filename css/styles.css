@@ -71,9 +71,8 @@ h3 {
 
 
 .is-activ a {
-    border-top: solid 0.2rem var(--blue-color);
-    color: var(--blue-color);
-
+  border-top: solid 0.2rem var(--blue-color);
+  color: var(--blue-color);
 }
 
 .nav-list li a:hover {
@@ -189,6 +188,14 @@ h3 {
 
 .filters p {
   font-weight: bold;
+}
+
+.filters-icon-container {
+  display: flex;
+}
+
+.filters-title {
+  margin-right: 2rem;
 }
 
 .filters-icon {
@@ -401,6 +408,7 @@ h3 {
 }
 #activities h3 {
   padding: 1.5rem;
+  
 }
 
 .activities-choice {

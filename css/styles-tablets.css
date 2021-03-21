@@ -54,6 +54,10 @@
   margin-left: 2rem;
 }
 
+.filters-icon-container {
+  flex-wrap: wrap;
+}
+
 .filters-icon {
   margin-bottom: 1.5rem;
   padding-left: 0;
@@ -61,7 +65,7 @@
 
 .infos {
   width: 100%;
-  padding: 2rem;
+  padding:  0 2rem;
 }
 
 /* HOSTING */
@@ -105,6 +109,10 @@
   border: none;
   padding: 0.5rem;
   width: 70%;
+}
+
+.more-hosting-link {
+  margin-bottom: 2rem;
 }
 
 /* ACTIVITIES */
@@ -156,4 +164,16 @@
 .list-bloc {
   margin-bottom: 2rem;
   padding: 2rem;
+}
+
+@media screen and (max-width: 750px) {
+  .list-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .list-bloc {
+    width: 100%;
+    margin-bottom: 0;
+  }
 }

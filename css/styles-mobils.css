@@ -86,6 +86,7 @@
 
 .search-input {
   padding: 2rem;
+  margin-bottom: 0;
 }
 
 .search-input input {
@@ -118,6 +119,11 @@
   margin-left: 2rem;
 }
 
+.filters-icon-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .filters-icon {
   margin-bottom: 1.5rem;
   padding-left: 0;
@@ -126,6 +132,7 @@
 .infos {
   width: 100%;
   padding: 2rem;
+  margin-bottom: 1rem;
 }
 
 /* HOSTING */

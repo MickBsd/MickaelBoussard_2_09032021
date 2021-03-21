@@ -74,7 +74,6 @@
 }
 
 .hosting-container {
-  /* justify-content: space-around; */
   width: 100%;
   margin-right: 0rem;
 }
@@ -92,8 +91,8 @@
 .most-popular {
   display: flex;
   flex-direction: column;
-align-items: center;  
-width: 100%;
+  align-items: center;  
+  width: 100%;
   margin-bottom: 3rem;
 }
 

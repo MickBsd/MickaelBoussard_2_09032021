@@ -80,6 +80,11 @@ h3 {
   border-top: solid 0.2rem var(--blue-color);
 }
 
+.is-not-activ a:active {
+  color: var(--blue-color);
+  border-top: solid 0.2rem var(--blue-color);
+}
+
 .sign-up-desktop {
   color: var(--blue-color);
   font-weight: bold;

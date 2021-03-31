@@ -69,18 +69,7 @@ h3 {
   padding: 4rem;
 }
 
-
-.is-activ a {
-  border-top: solid 0.2rem var(--blue-color);
-  color: var(--blue-color);
-}
-
 .nav-list li a:hover {
-  color: var(--blue-color);
-  border-top: solid 0.2rem var(--blue-color);
-}
-
-.is-not-activ a:active {
   color: var(--blue-color);
   border-top: solid 0.2rem var(--blue-color);
 }

@@ -17,13 +17,6 @@
   padding: 2rem;
 }
 
-/* .sign-up-mobile {
-  display: flex;
-  color: var(--blue-color);
-  font-weight: bold;
-  padding: 2rem;
-} */
-
 .sign-up-desktop {
   position: absolute;
   right: 0.1rem;

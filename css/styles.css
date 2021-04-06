@@ -125,6 +125,7 @@ h3 {
 }
 
 .search-input input {
+  font-family: "Raleway", sans-serif;
   border: none;
   padding: 1.5rem;
   font-weight: bold;
@@ -143,6 +144,7 @@ h3 {
 }
 
 .search-button {
+  font-family: "Raleway", sans-serif;
   background-color: var(--blue-color);
   border: none;
   border-radius: 0 2rem 2rem 0;

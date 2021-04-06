@@ -17,15 +17,18 @@
   padding: 2rem;
 }
 
-.sign-up-mobile {
+/* .sign-up-mobile {
   display: flex;
   color: var(--blue-color);
   font-weight: bold;
   padding: 2rem;
-}
+} */
 
 .sign-up-desktop {
-  display: none;
+  position: absolute;
+  right: 0.1rem;
+  top: 2rem;
+  margin-right: 0;
 }
 
 .nav-bar {
